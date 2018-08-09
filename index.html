@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Index Beaudin</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="cssBeaudin.css" rel="stylesheet">
+    <!-- in your header -->
+
+
+</head>
+
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+    <nav class="navbar navbar-fixed-top navbar-inverse">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="sr-only">Toggle Navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="beaudin.html">Beaudin.co</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#temoignage">Temoignages</a></li>
+                    <li><a href="#pourquoiBeaudin">Pourquoi?</a></li>
+                    <li><a href="#francois">À propos</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><button class="btn btn-primary" id="btnSoumission" data-toggle="modal" data-target="#soumission">Soumission</button></li>
+
+                </ul>
+            </div>
+        </div>
+    </nav> <!-- fin de la NavBar fixée -->
+
+
+    <div class="cover">
+        <div class="cover-text">
+            <h1>Vous êtes beau, mais votre site est laid?</h1><br>
+            <p class="lead">Arrangeons-ça, ensemble!</p><br>
+            <button role="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#soumission" id="modalBtn">
+                Modernise-moi Beaudin.</button>
+        </div>
+    </div>
+
+    <form class="modal" id="soumission" aria-hidden="true">
+
+        <div class="modal-dialog modal-lg">
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+                    <h4 class="modal-title"><span class="glyphicon glyphicon-bell"></span> Obtenez votre soumission</h4>
+                </div>
+
+
+
+                <div class="modal-body">
+
+                    <div id="entrepriseParticulier" class="radio">
+                        <label>
+                            <input type="radio" name="votrechoix" id="choixEntreprise"><span></span>Entreprise
+                        </label>
+
+                        <label>
+                            <input type="radio" name="votrechoix" id="choixParticulier"><span></span>Particulier
+                        </label>
+
+                    </div>
+
+
+                    <div id="entreprise" class="form-group has-success">
+                        <h3>Informations de contact :</h3>
+                        <label for="formEntreprise">Nom de l'entreprise?</label>
+                        <input type="text" id="formEntreprise" class="form-control">
+                        <label for="formNom">Votre nom?</label>
+                        <input type="text" id="formNom" class="form-control">
+                        <label for="formEmail">Votre courriel?</label>
+                        <input type="text" id="formEmail" class="form-control">
+                        <label for="formPhone">Numéro de téléphone</label>
+                        <input type="text" id="formPhone" class="form-control">
+                        <label for="formWeb">Votre site web actuel?</label>
+                        <input type="text" id="formWeb" class="form-control" placeholder="Si vous en avez un.">
+
+                        <h3>Plus d'information par rapport au projet :</h3>
+                        <label for="formWeb">Public cible</label>
+                        <input type="text" id="formWeb" class="form-control" placeholder="Si vous en avez un.">
+
+                    </div>
+
+                    <div id="particulier" class="form-group has-success">
+                        <label for="pformProjet">Nom du projet?</label>
+                        <input type="text" id="pformProjet" class="form-control">
+                        <label for="pformNom">Votre nom?</label>
+                        <input type="text" id="pformNom" class="form-control">
+                        <label for="pformEmail">Votre courriel?</label>
+                        <input type="text" id="pformEmail" class="form-control">
+                    </div>
+
+                </div><!-- fin du body de modal -->
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                    <button type="submit" class="btn btn-primary">Save changes</button>
+                </div>
+
+            </div>
+
+        </div>
+
+    </form>
+
+
+
+
+
+
+    <section class="testimonial" id="temoignage">
+        <div class="container">
+            <blockquote>
+                &ldquo; -Mon site était vraiment laid avant que Beaudin passe dessus'. Maintenant j'ai enfin le site qui représente
+                mon commerce. &rdquo;
+                <cite>&mdash; Un client content.</cite>
+            </blockquote>
+        </div>
+    </section>
+
+    <section id="pourquoiBeaudin">
+        <h2>Pourquoi Beaudin.co?</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <h3>Service personalisé</h3>
+                    <p>Vous ne faîtes pas affaire à une grosse compagnie avec 5 millions de contrats avec des délais incroyables, mais plutôt
+                    avec un développeur indépendant qui connaît les valeurs de l'entreprenariat et qui s'assure que vos attentes soit réalisées. </p>
+                </div>
+                <div class="col-sm-4">
+                    <h3>CMS</h3>
+                    <p>Vous serez en mesure d'ajoute du contenu par vous même au fil du temps. Que ce soit à vous ou un employé, je vous fournirai
+                    une mini-formation qui permettra d'actualiser le contenu de votre page simplement par vous même.</p>
+                </div>
+                <div class="col-sm-4">
+                    <h3>Beau sur n'importe quel appareil.</h3>
+                    <p>Votre site aura fière allure peu importe la grosseur d'écran sur lequel il est consulté.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="francois">
+        <div class="container">
+            <h2>Un vrai junior en programation...</h2>
+            <hr>
+            <div class="row">
+                <div class="col-sm-4">
+                    <img src="img/francois.jpg" id="francoisPhoto" alt="Votre beau développeur" class=" img-circle">
+                </div>
+                <div class="col-sm-8">
+                    <p class="lead">...Et pourtant, déjà une machine de guerre.</p>
+
+                    <div class="nav-custom">
+                    <ul class="nav nav-pills" role="tablist">
+                        <li class="active"><a href="#about" role="tab" data-toggle="pill">À propos</a></li>
+                        <li><a href="#specs" role="tab" data-toggle="pill">Connaissances</a></li>
+                        <li><a href="#reviews" role="tab" data-toggle="pill">Porte-Folio</a></li>
+                    </ul>
+                    </div>
+                    <!-- Tab panes -->
+
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane fade in active" id="about">
+                            <h2>À propos</h2>
+                            <p>Le service client pour moi sera toujours au coeur même de toutes mes créations. Étant auparavant dans la sphère
+                            des ventes pendant plus de 10 ans, j'ai toujours sû qu'un bon nom et une bonne image valait mieu que bien des campagnes
+                            marketing.</p>
+
+                            <p>Étant fraîchement sorti du four en tant que developpeur web full-stack, je sais que de grand défis sont au rendez-vous!
+                            N'ayant jamais eu froid aux yeux, c'est tête première que j'embarque dans cette aventure dans laquelle j'espère
+                            rencontrer toutes vos attentes tout en bonifiant mes connaissances et mon porte-folio.</p>
+
+                            <p>En bref, vous aurez une personne perfectionniste orientée vente pour la direction et la création de votre espace web.</p>
+                        </div>
+                        <div role="tabpanel" class="tab-pane fade" id="specs">
+                            <h2>Connaissances</h2>
+                                <div id="imgbox">
+                                    <img src="img/icons/photoshop.png" class="icones" id="tpsd">
+                                    <img src="img/icons/longshadow/HTML5.png" class="icones" id="thtml5">
+                                    <img src="img/icons/longshadow/css3.png" class="icones" id="tcss3">
+                                    <img src="img/icons/longshadow/JS.png" class="icones" id="tjs">
+                                    <img src="img/icons/longshadow/Jquery.png" class="icones" id="tjq">
+                                    <img src="img/icons/longshadow/bootstrap.png" class="icones" id="tbs">
+                                    <img src="img/icons/wordpress.png" class="icones" id="twp">
+                                    <img src="img/icons/longshadow/AngularJS.png" class="icones" id="tajs">
+                                </div>
+
+                                <div id="pbox">
+                                    <p class="lead hideshow" id="tpsdhs">Photoshop, la base pour n'importe quel projet graphique.</p>
+                                    <p class="lead hideshow" id="thtml5hs">La structure du site est montée en HTML5</p>
+                                    <p class="lead hideshow" id="tcss3hs">Ce site est beau grâce à CSS3</p>
+                                    <p class="lead hideshow" id="tjshs">Une bonne partie des animations sont faite avec JavaScript</p>
+                                    <p class="lead hideshow" id="tjqhs">jQuery me simplifie tout simplement la vie</p>
+                                    <p class="lead hideshow" id="tbshs">Bootstrap me permet de faire des sites "Responsive"</p>
+                                    <p class="lead hideshow" id="twphs">À venir, mais semble Easy</p>
+                                    <p class="lead hideshow" id="tajshs">Aucune idée.</p>
+                                </div>
+
+                                <div id="formation">
+                                    <p>La beauté des formations en ligne, c'est qu'elles sont mise à jour régulièrement. Puisque les normes du web changent
+                                    pratiquement sans pré-avis et qu'il est difficile en classe d'avoir accès à toute cette nouvelle information, j'ai
+                                    opté pour l'autoformation.</p>
+                                    <p>J'ai donc passé quelques mois sur le site <a href="//www.udemy.com">d'udemy</a>
+                                        qui m'a permis d'acquérir les connaissances nécessaires en developpement Web autant en Front-end qu'en Back-end.</p>
+                                </div>
+
+
+
+                        </div>
+                        <div role="tabpanel" class="tab-pane fade" id="reviews">
+                            <h2>Mon Porte-Folio</h2>
+                            <p>J'ai à mon actif l'entière construction de ce site, vous êtes la tête d'affiche à venir dans mon porte-folio ;)!</p>
+                        </div>
+                        <div role="tabpanel" class="tab-pane fade" id="purchase">
+                            <h2>Purchase</h2>
+                            <p>Potato potato</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <div id="contact">
+        <section class="container">
+            <h2>Contact</h2>
+            <p class="lead">Vous désirez me joindre? Ce n'est pas le choix qui manque!</p>
+
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4 col-sm-offset-4 col-xs-offset-2 col-xs-8">
+                        <a href="mailto:francois@beaudin.co"><img src="img/icons/Social/email.png" class="icones icocontact"></a>
+                        <a href="mailto:francois@beaudin.co"><p class="breaker">francois@beaudin.co</p></a><br>
+                        <a href="tel:14188028541"><img src="img/icons/Social/phone.png" class="icones icocontact"></a>
+                        <a href="tel:14188028541">
+                            <p class="breaker">1-418-802-8541</p>
+                        </a><br>
+                        <a href="https://www.linkedin.com/in/fran%C3%A7ois-beaudin-ab035a91/">
+                            <img src="img/icons/Social/linkedin.png" class="icones icocontact">
+                        </a>
+                        <img src="img/icons/Social/skype.png" class="icones icocontact">
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2">
+                    <form>
+                        <p class="lead text-center">Si vous préférez que je prenne contact avec vous :</p>
+                        <div class="input-group">
+                            <input type="text" class="form-control input-lg" placeholder="Votre e-mail.">
+                            <span class="input-group-btn">
+                                <button class="btn btn-primary btn-lg">Go!</button>
+                            </span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+    </section>
+
+    <footer>
+        copyright &copy; <a href="//www.beaudin.co">Beaudin.co</a>
+    </footer>
+
+
+<script src="jquery/jquery-3.3.1.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="scriptBeaudin.js"></script>
+</body>
+</html>
