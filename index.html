@@ -7,10 +7,10 @@
 
     <title>Index Beaudin</title>
 
-    <!-- Bootstrap -->
+    <!-- CSS Bootstrap/Custom -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="cssBeaudin.css" rel="stylesheet">
-    <!-- in your header -->
+
 
 
 </head>
@@ -18,7 +18,7 @@
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
-    <nav class="navbar navbar-fixed-top navbar-inverse">
+    <nav class="navbar navbar-fixed-top navbar-inverse" id="myNavbar">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
@@ -27,7 +27,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="beaudin.html">Beaudin.co</a>
+                <a class="navbar-brand" href="#home">Beaudin.co</a>
             </div>
 
             <div class="collapse navbar-collapse" id="navbar-collapse">
@@ -44,7 +44,7 @@
     </nav> <!-- fin de la NavBar fixée -->
 
 
-    <div class="cover">
+    <div class="cover" id="home">
         <div class="cover-text">
             <h1>Vous êtes beau, mais votre site est laid?</h1><br>
             <p class="lead">Arrangeons-ça, ensemble!</p><br>
@@ -142,17 +142,25 @@
             <div class="row">
                 <div class="col-sm-4">
                     <h3>Service personalisé</h3>
-                    <p>Vous ne faîtes pas affaire à une grosse compagnie avec 5 millions de contrats avec des délais incroyables, mais plutôt
-                    avec un développeur indépendant qui connaît les valeurs de l'entreprenariat et qui s'assure que vos attentes soit réalisées. </p>
+                    <p>Étant un développeur indépendant, je n'ai pas plusieurs protocoles à suivre et des tonnes de contrats à réaliser sous pression.</p>
+                    <p>Je m'assure tout d'abord de connaître vos besoins, vos attentes ainsi que vos ambitions. Je monte ensuite un plan de travail
+                    qui correspond à notre discution et vous fait part des nouveaux développements au fil du temps.</p>
+                    <p>Ainsi, votre espace web sera en mesure de refleter de manière maximale l'image de votre projet ou de votre entreprise.</p>
                 </div>
                 <div class="col-sm-4">
-                    <h3>CMS</h3>
-                    <p>Vous serez en mesure d'ajoute du contenu par vous même au fil du temps. Que ce soit à vous ou un employé, je vous fournirai
-                    une mini-formation qui permettra d'actualiser le contenu de votre page simplement par vous même.</p>
+                    <h3>CMS pour vous</h3>
+                    <p>CMS C'est quoi? C'est un "content management system" ou si vous préférez système de gestion de contenu.</p>
+                    <p>En gros, vous ou un membre de votre équipe sera en mesure d'ajouter du contenu sur votre site web aisément et ainsi
+                    vous permettra de mettre l'information de votre site web à jour en tout temps.</p>
+                    <p>Vous n'avez pas besoin d'apprendre à programmer et c'est aussi facile que de gérer une page facebook! Je vous donne même la formation!</p>
                 </div>
                 <div class="col-sm-4">
-                    <h3>Beau sur n'importe quel appareil.</h3>
-                    <p>Votre site aura fière allure peu importe la grosseur d'écran sur lequel il est consulté.</p>
+                    <h3>Site web adaptatif</h3>
+                    <p>Tout les sites web créés par Beaudin.co sont à jour avec les dernières notions "responsive".</p>
+                    <p>Que vous visionnez votre site web sur votre téléphone, tablette ou votre ordinateur, votre site aura fière allure et
+                    sera aux dernières normes du web.</p>
+                    <p>Ainsi vos visiteurs pourront apprécier leur visite dans votre espace et avoir la même expérience agréable en tout temps.</p>
+
                 </div>
             </div>
         </div>
@@ -252,16 +260,18 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-4 col-sm-offset-4 col-xs-offset-2 col-xs-8">
-                        <a href="mailto:francois@beaudin.co"><img src="img/icons/Social/email.png" class="icones icocontact"></a>
-                        <a href="mailto:francois@beaudin.co"><p class="breaker">francois@beaudin.co</p></a><br>
-                        <a href="tel:14188028541"><img src="img/icons/Social/phone.png" class="icones icocontact"></a>
-                        <a href="tel:14188028541">
-                            <p class="breaker">1-418-802-8541</p>
-                        </a><br>
-                        <a href="https://www.linkedin.com/in/fran%C3%A7ois-beaudin-ab035a91/">
-                            <img src="img/icons/Social/linkedin.png" class="icones icocontact">
-                        </a>
-                        <img src="img/icons/Social/skype.png" class="icones icocontact">
+                        <div class="contactList">
+                            <a href="mailto:francois@beaudin.co"><img src="img/icons/Social/email.png" class="icones icocontact"></a>
+                            <a href="mailto:francois@beaudin.co"><p class="breaker">francois@beaudin.co</p></a><br>
+                            <a href="tel:1xxxxxx"><img src="img/icons/Social/phone.png" class="icones icocontact"></a>
+                            <a href="tel:1xxxx1">
+                                <p class="breaker">1-xxx-je-taime</p>
+                            </a><br>
+                            <a href="https://www.linkedin.com/in/fran%C3%A7ois-beaudin-ab035a91/">
+                                <img src="img/icons/Social/linkedin.png" class="icones linkedIn">
+                            </a>
+                            <img src="img/icons/Social/skype.png" class="icones icocontact">
+                        </div>
 
                     </div>
                 </div>

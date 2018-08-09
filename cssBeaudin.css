@@ -127,6 +127,9 @@ h2 + p {
     text-align:center;
     margin-top:-60px;
 }
+.linkedIn {
+    margin:0 25% 0 0;
+}
 .icocontact {
     display:inline-block;
 }
@@ -192,6 +195,19 @@ footer a {
     .icones {
         width:32px;
         height:32px;
+    }
+    .breaker {
+        display:none;
+    }
+    .contactList {
+        margin:auto;
+        width:50%;
+    }
+    .icocontact {
+        margin:0 0 0 20%;
+    }
+    .linkedIn {
+        margin:0 0 0 20%;
     }
 }
 @media only screen and ( max-width : 768px ) {
